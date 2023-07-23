@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nav{
+    height: 60px;
+    background-color:rgb(0,0,0,0.8);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.nav-logo{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: black;
+    font-size: larger;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.nav-links a:hover{
+    border: 1px solid white;
+}
+.nav-head{
+    height: 621px;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.nav-head h1{
+    color: whitesmoke;
+    font-size: 55px;
+    padding-top: 280px;
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+    margin-bottom: 8px;
+}
+.nav-head h2{
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: transparent;
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+    mix-blend-mode: overlay;
+}
+.space{
+    height: 6px;
+    background-color: black;
+}
+#about{
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+}
+#about h1{
+    padding-top: 15px;
+}
+.about-me{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-content{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    background-image: url(myimg.jpg);
+    background-size: cover;
+    margin-right: 80px;
+    border-radius: 50%;
+}
+.text-content{
+    margin-left: 45px;
+    padding: 0;
+    color: white;
+}
+#education{
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+}
+#education h1{
+    padding-top: 15px;
+}
+.btech{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btech img{
+    width: 100px;
+    height: 100px;
+}
+.text-btech h3{
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+.text-btech h5{
+    padding-right: 310px;
+}
+.college{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.college img{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+    padding-left: 25px;
+}
+.text-college h3{
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 250px;
+}
+.text-college h5{
+    padding-right: 238px;
+}
+.school{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.school img{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+    padding-left: 50px;
+}
+.text-school h3{
+    padding-left: 52px;
+    padding-bottom: 10px;
+    padding-right: 250px;
+}
+.text-school h5{
+    padding-right: 288px;
+}
+#skills{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    text-align: left;
+}
+#skills h1{
+    padding: 25px;
+}
+#skills h3{
+    padding: 25px 0px 10px 25px;
+}
+.container{
+    width: 80%;
+    margin-left: 25px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.skill{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    /*border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;*/
+    border-radius: 20px;
+}
+.html{width: 90%; background-color: #04AA6D}
+.css {width: 80%; background-color: #2196F3;}
+.MATLAB {width: 75%; background-color: #f44336;}
+.CLan {width: 95%; background-color: #808080;}
+.py{width: 85%; background-color: lightseagreen;}
+.js{width: 50%;background-color: orange;}
+#project{
+    padding: 25px;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-align: center;
+}
+#project h1{
+    padding: 0px 0px 25px 0px;
+}
+.myprojects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 33.33%;
+    height: 350px;
+    /*border: 2px solid white;*/
+    margin: 5px;
+    text-align: left;
+    padding: 6px;
+}
+.myprojects img{
+    height: 200px;
+    width: 450px;
+}
+.box h3{
+    margin-bottom: 10px;
+}
+.box:hover{
+    transform: scale(1.1,1.1);
+}
+button{
+    margin: 25px 0px;
+    padding: 6px;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#fotter{
+    background-color: rgba(0,0,0,0.8);
+    size: 25px;
+    color: white;
+    text-align: center;
+}
+#fotter h2{
+    padding: 25px;
+}
+#fotter a{
+    margin-left: 40px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+#fotter p{
+    margin: 30px;
+    font-size: 14px;
+}
